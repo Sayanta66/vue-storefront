@@ -12,7 +12,7 @@ To learn about it in-depth, you can refer to the [Directory Structure in Nuxt.js
 
 * [**.nuxt**](https://nuxtjs.org/docs/2.x/directory-structure/nuxt) is a dynamically generated build directory. You should **not** manually modify it, nor synchronize it using version control like GIT.
 
-* [**components**](https://nuxtjs.org/docs/2.x/directory-structure/components) contains Vue.js components used on different pages or parts of your application. You can import these components from pages, layouts, and other components.
+* [**components**](https://nuxtjs.org/docs/2.x/directory-structure/components/) contains Vue.js components used on different pages or parts of your application. You can import these components from pages, layouts, and other components.
 
 * [**lang**](https://docs.vuestorefront.io/v2/getting-started/internationalization.html) contains translations for your application. Available locales are configured in the `nuxt.config.js` file.
 
@@ -26,7 +26,7 @@ To learn about it in-depth, you can refer to the [Directory Structure in Nuxt.js
 
 * **middleware.config.js** and **nuxt.config.js** configurations file are described in detail in the [Configuration](./configuration.html) document.
 
-Some integrations can have slightly different structures, with more or fewer files and directories. For more information, refer to the Nuxt.js documentation linked above and integration documentation.
+Some integrations can have slightly different structures, with more or fewer files and directories. For more information, refer to the Nuxt.js documentation linked above and the integration documentation.
 
 ## What's next
 
